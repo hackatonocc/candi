@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Perfil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Perfil" transform="translate(-40.000000, -345.000000)" fill="#000000">
+            <g id="Group" transform="translate(26.000000, 308.000000)">
+                <g id="Page-1" transform="translate(14.000000, 37.000000)">
+                    <path d="M19,14.6969 C19,15.4789 18.7075,15.9999 17.9195,15.9999 L2.6815,15.9999 C1.8935,15.9999 1,15.4789 1,14.6969 L1,2.4039 C1,1.9564 1.3405,1.5614 1.6675,1.3014 L10.42,10.0874 L18.7895,1.4809 C19.0065,1.7299 19,2.0499 19,2.4039 L19,14.6969 Z M18.0645,1.0074 L10.4835,8.6764 L2.888,0.9999 L17.9195,0.9999 C17.969,0.9999 18.016,1.0024 18.0645,1.0074 L18.0645,1.0074 Z M17.9195,-0.0001 L2.6815,-0.0001 C1.3685,-0.0001 0,1.1009 0,2.4039 L0,14.6969 C0,16.0004 1.3685,16.9999 2.6815,16.9999 L17.9195,16.9999 C19.2325,16.9999 20,16.0004 20,14.6969 L20,2.4039 C20,1.1009 19.2325,-0.0001 17.9195,-0.0001 L17.9195,-0.0001 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

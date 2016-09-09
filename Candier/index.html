@@ -1,27 +1,28 @@
-<!-- index.html -->
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Candier</title>
-    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
-    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
-    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
-    <script src="https://npmcdn.com/jquery@3.1.0/dist/jquery.min.js"></script>
-    <script src="https://npmcdn.com/remarkable@1.6.2/dist/remarkable.min.js"></script>
-	<!-- Scripts -->
-	<!--<script src="js/candier.js"></script>-->
-	<!-- Estilos -->
-	<link rel="stylesheet" href="css/master.css" type="text/css">
-	<link rel="stylesheet" href="css/typography.css" type="text/css">
-	<link rel="stylesheet" href="css/candier.css" type="text/css">
-  </head>
-  <body>
-	<div style="width: 100%; height: 50px; background-color: #6f16ac; color: #FFFFFF !important;">
-		<span class="icon-candier" style="margin: 0px; padding: 12px; display: block;"></span>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Candier</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body id="index">
+	<div id="container">
+		<div id="logo"><img src="images/logo_2.png" width="50%"></div>
+		<div id="login">
+			<div id="facebook"></div>
+			<div id="crearcuenta"><a href="/registro">Crear Cuenta </a></div>
+			<p>Espera,</p>
+			<a href="#">¡Ya tengo cuenta!</a>
+		</div>
+		<footer>
+			<!--<p><img src="images/logo_2.png">by occmundial.com</p>-->
+			<p>Al registrarme acepto el Aviso de Privacidad y T&eacute;rminos y Condiciones de Servicio</p>
+		</footer>
 	</div>
-	<div id="resultados"></div>
-    <script type="text/babel" src="js/resultados.js"></script>
-    <script src="/build/react-with-addons.js"></script>
-  </body>
+	<script type="text/babel" src="js/fbconnect.js"></script>
+</body>
 </html>
