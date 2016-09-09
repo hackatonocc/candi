@@ -1,0 +1,46 @@
+.example-enter,
+.example-leave {
+  -webkit-transition: all .75s;
+  transition: all .75s;
+}
+
+.example-enter,
+.example-leave.example-leave-active {
+  opacity: 0.01;
+}
+
+.example-leave.example-leave-active {
+  margin-left: -33.333%;
+}
+
+.example-enter {
+  margin-left: 33.333%;
+}
+
+.example-enter.example-enter-active,
+.example-leave {
+  margin-left: 0%;
+  opacity: 1;
+}
+
+.animateExample {
+  /*display: block;
+  height: 292px;
+  position: relative;
+  width: 384px;*/
+}
+
+/*
+.animateItem {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  height: 292px;
+  line-height: 292px;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all .25s; 
+  transition: all .25s; 
+  width: 512px;
+}
+*/

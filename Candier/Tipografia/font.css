@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'candier';
+  src: url('candier.eot');
+  src: url('candier.woff2') format('woff2'),
+       url('candier.woff') format('woff'),
+       url('candier.ttf') format('truetype'),
+       url('candier.svg#candier') format('svg'),
+       url('candier.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

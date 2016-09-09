@@ -1,0 +1,104 @@
+﻿@font-face {
+    font-family: 'lato-black';
+    src: url('../fonts/lato-black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-blackitalic';
+    src: url('../fonts/lato-blackitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-bold';
+    src: url('../fonts/lato-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-bolditalic';
+    src: url('../fonts/lato-bolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-heavy';
+    src: url('../fonts/lato-heavy.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-heavyitalic';
+    src: url('../fonts/lato-heavyitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-italic';
+    src: url('../fonts/lato-italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-light';
+    src: url('../fonts/lato-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-lightitalic';
+    src: url('../fonts/lato-lightitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-medium';
+    src: url('../fonts/lato-medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-mediumitalic';
+    src: url('../fonts/lato-mediumitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-regular';
+    src: url('../fonts/lato-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-semibold';
+    src: url('../fonts/lato-semibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-semibolditalic';
+    src: url('../fonts/lato-semibolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-thin';
+    src: url('../fonts/lato-thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lato-thinitalic';
+    src: url('../fonts/lato-thinitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../fonts/opensans-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-bolditalic';
+    src: url('../fonts/opensans-bolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-extrabold';
+    src: url('../fonts/opensans-extrabold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-extrabolditalic';
+    src: url('../fonts/opensans-extrabolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-italic';
+    src: url('../fonts/opensans-italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-light';
+    src: url('../fonts/opensans-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-lightitalic';
+    src: url('../fonts/opensans-lightitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/opensans-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-semibold';
+    src: url('../fonts/opensans-semibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'opensans-semibolditalic';
+    src: url('../fonts/opensans-semibolditalic.ttf') format('truetype');
+}

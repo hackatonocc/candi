@@ -1,0 +1,107 @@
+[
+    {
+		"id": 0,
+		"description": "Todas",
+		"descriptionen": "All"
+	},
+	{
+		"id": 1,
+		"description": "Administrativos",
+		"descriptionen": "Management"
+	},
+    {
+		"id": 2,
+		"description": "Biología",
+		"descriptionen": "Biology"
+	},
+    {
+		"id": 3,
+		"description": "Comunicaciones",
+		"descriptionen": "Communication"
+	},
+    {
+		"id": 4,
+		"description": "Contabilidad",
+		"descriptionen": "Accounting"
+	},
+    {
+		"id": 5,
+		"description": "Construcción",
+		"descriptionen": "Construction"
+	},
+    {
+		"id": 6,
+		"description": "Creatividad, Producción y Diseño Comercial",
+		"descriptionen": "Creativity, Production and Commercial Design"
+	},
+    {
+		"id": 7,
+		"description": "Derecho y Leyes",
+		"descriptionen": "Law"
+	},
+    {
+		"id": 8,
+		"description": "Educación",
+		"descriptionen": "Education"
+	},
+    {
+		"id": 9,
+		"description": "Ingeniería",
+		"descriptionen": "Engineering"
+	},
+    {
+		"id": 10,
+		"description": "Logística, Transportación y Distribución",
+		"descriptionen": "Logistics, Transportation and Distribution"
+	},
+    {
+		"id": 11,
+		"description": "Manufactura, Producción y Operación",
+		"descriptionen": "Manufacturing, Production and Operation"
+	},
+    {
+		"id": 12,
+		"description": "Mercadotecnia, Publicidad y Relaciones Públicas",
+		"descriptionen": "Marketing, Advertising and Public Relations"
+	},
+    {
+		"id": 13,
+		"description": "Recursos Humanos",
+		"descriptionen": "Human Resources"
+	},
+    {
+		"id": 14,
+		"description": "Salud y Belleza",
+		"descriptionen": "Health and Beauty"
+	},
+    {
+		"id": 15,
+		"description": "Sector Salud",
+		"descriptionen": "Medical"
+	},
+    {
+		"id": 16,
+		"description": "Seguro y Reaseguro",
+		"descriptionen": "Insurance and Reinsurance"
+	},
+    {
+		"id": 17,
+		"description": "Tecnologías de la Información / Sistemas",
+		"descriptionen": "Information Technology / Systems"
+	},
+    {
+		"id": 18,
+		"description": "Turismo, Hospitalidad y Gastronomía",
+		"descriptionen": "Tourism, Hospitality and Gastronomy"
+	},
+    {
+		"id": 19,
+		"description": "Ventas",
+		"descriptionen": "Sales"
+	},
+    {
+		"id": 20,
+		"description": "Veterinaria / Zoología",
+		"descriptionen": "Veterinary / Zoology"
+    }
+]

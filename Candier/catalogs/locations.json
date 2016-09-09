@@ -1,0 +1,134 @@
+[
+    {
+		"id": 0,
+		"description": "Todas"
+	},
+    {
+		"id": "MX-AGS",	
+		"description": "Aguascalientes"
+	},
+	{
+		"id": "MX-BCN",
+		"description": "Baja California"
+	},
+	{
+		"id": "MX-BCS", 
+		"description": "Baja California Sur"
+	},
+	{
+		"id": "MX-CAM", 
+		"description": "Campeche"
+	},
+	{
+		"id": "MX-CHP", 
+		"description": "Chiapas"
+	},
+	{
+		"id": "MX-CHI", 
+		"description": "Chihuahua"
+	},
+	{
+		"id": "MX-COA", 
+		"description": "Coahuila"
+	},
+	{
+		"id": "MX-COL", 
+		"description": "Colima"
+	},
+	{
+		"id": "MX-DF", 
+		"description": "DF Y Zona Metro."
+	},
+	{
+		"id": "MX-DGO", 
+		"description": "Durango"
+	},
+	{
+		"id": "MX-MEX", 
+		"description": "Edo. México"
+	},
+	{
+		"id": "MX-GTO", 
+		"description": "Guanajuato"
+	},
+	{
+		"id": "MX-GRO", 
+		"description": "Guerrero"
+	},
+	{
+		"id": "MX-HGO", 
+		"description": "Hidalgo"
+	},
+	{
+		"id": "MX-JAL", 
+		"description": "Jalisco"
+	},
+	{
+		"id": "MX-MCH", 
+		"description": "Michoacán"
+	},
+	{
+		"id": "MX-MOR", 
+		"description": "Morelos"
+	},
+	{
+		"id": "MX-NAY", 
+		"description": "Nayarit"
+	},
+	{
+		"id": "MX-NL", 
+		"description": "Nuevo León"
+	},
+	{
+		"id": "MX-OAX", 
+		"description": "Oaxaca"
+	},
+	{
+		"id": "MX-PUE", 
+		"description": "Puebla"
+	},
+	{
+		"id": "MX-QRO", 
+		"description": "Querétaro"
+	},
+	{
+		"id": "MX-QR", 
+		"description": "Quintana Roo"
+	},
+	{
+		"id": "MX-SLP", 
+		"description": "San Luis Potosí"
+	},
+	{
+		"id": "MX-SINA", 
+		"description": "Sinaloa"
+	},
+	{
+		"id": "MX-SONO", 
+		"description": "Sonora"
+	},
+	{
+		"id": "MX-TAB", 
+		"description": "Tabasco"
+	},
+	{
+		"id": "MX-TAM", 
+		"description": "Tamaulipas"
+	},
+	{
+		"id": "MX-TLX", 
+		"description": "Tlaxcala"
+	},
+	{
+		"id": "MX-VER", 
+		"description": "Veracruz"
+	},
+	{
+		"id": "MX-YUC", 
+		"description": "Yucatán"
+	},
+	{
+		"id": "MX-ZAC", 
+		"description": "Zacatecas"
+	}
+]
