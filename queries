@@ -1,0 +1,25 @@
+#Inserts y Updates
+db.JobOffers.update({Recruiter_id:"dparis"},{$set:{Place:"Querétaro, Zona Juriquilla, México"}},{multi:true})
+db.JobOffers.update({Recruiter_id:"nerf"},{$set:{Place:"Santiago de Querétaro, Querétaro, México"}},{multi:true})
+db.JobOffers.update({Recruiter_id:"casablanca"},{$set:{Place:"Querétaro, Zona Sur"}},{multi:true})
+db.JobOffers.insert({Recruiter_id:'casablanca',Location:{x:20.569544,y:-100.360532},Salary:6000,Category:"Turismo, Hospitalidad y Gastronomía",JobName:"Botones"})
+db.JobOffers.insert({Recruiter_id:'casablanca',Location:{x:20.569544,y:-100.360532},Salary:6200,Category:"Turismo, Hospitalidad y Gastronomía",JobName:"Camarera"})
+db.JobOffers.insert({Recruiter_id:'dparis',Location:{x:20.771179,y:-100.450107},Salary:2200,Category:"Salud y Belleza",JobName:"Estilista trainee"})
+db.JobOffers.insert({Recruiter_id:'dparis',Location:{x:20.771179,y:-100.450107},Salary:4500,Category:"Salud y Belleza",JobName:"Estilista con experiencia en punk"})
+db.JobOffers.insert({Recruiter_id:'nerf',Location:{x:20.556852,y:100.418987},Salary:1000,Category:"Ingeniería",JobName:"Becario"})
+db.JobOffers.insert({Recruiter_id:'nerf',Location:{x:20.556852,y:100.418987},Salary:9999,Category:"Ingeniería",JobName:"Tester de dardos"})
+db.JobOffers.insert({Recruiter_id:'nerf',Location:{x:20.556852,y:100.418987},Salary:6000,Category:"Derecho y Leyes",JobName:"Abogado experto contra lesiones físicas"})
+db.JobOffers.insert({Recruiter_id:'nerf',Location:{x:20.556852,y:100.418987},Salary:6000,Category:"Ingeniería",JobName:"Tester de dardos"})
+db.JobOffers.insert({Recruiter_id:'chillis',Location:{x:20.5888,y:100.3899},Salary:9000,Category:"Turismo, Hospitalidad y Gastronomía",JobName:"Capitán de meseros"})
+db.JobOffers.insert({Recruiter_id:'chillis',Location:{x:20.5888,y:100.3899},Salary:7000,Category:"Turismo, Hospitalidad y Gastronomía",JobName:"Hostess"})
+db.Users.insert({"_id":"elroland","Password":"rolis345","CreationDate":Date(),"Active":true,"EmailAddress":"rolando@gmail.com","Name":"Rolando Leija","JobSeeker":{"Profession":"Progamador","Skills":["Python","Inglés","Devops"],"Phone":"5534567897","Location":{"x":13.564,"y":34.567},"Photo":"elroland.jpg"}})
+db.Users.insert({"_id":"pacotorro","Password":"elpacuarro","CreationDate":Date(),"Active":true,"EmailAddress":"frodriguez@occ.com.mx","Name":"Juan Rodriguez Olevra","JobSeeker":{"Profession":"Progamador","Skills":["Java","C#"],"Phone":"4427135333","Location":{"x":-73.974,"y":40.764},"Photo":"pacotorro.png"}})
+
+#Consultas
+var comments = db.Matches.find({User_id: "jopuca"},{"JobOffer_id": true})
+var OfersIds = comments.map(function(c) { return c.JobOffer_id; });
+db.JobOffers.find({"_id": {$nin: OfersIds}});
+
+db.Users.find().pretty();
+
+db.JobOffers.find().pretty();
