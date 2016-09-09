@@ -1,0 +1,473 @@
+#index{
+	background-image: linear-gradient(86deg, #0960D3 0%, #442CB9 47%, #7103A5 100%);
+	color: white;
+    @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+}
+
+@font-face {
+      font-family: 'candier';
+      src: url('../font/candier.eot?20771896');
+      src: url('../font/candier.eot?20771896#iefix') format('embedded-opentype'),
+           url('../font/candier.woff?20771896') format('woff'),
+           url('../font/candier.ttf?20771896') format('truetype'),
+           url('../font/candier.svg?20771896#candier') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "candier";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-aplicar:before { content: '\e800'; } /* 'î €' */
+.icon-candier:before { content: '\e801'; } /* 'î ' */
+.icon-cerrar:before { content: '\e802'; } /* 'î ‚' */
+.icon-chack:before { content: '\e803'; } /* 'î ƒ' */
+.icon-direccion:before { content: '\e804'; } /* 'î „' */
+.icon-folder:before { content: '\e805'; } /* 'î …' */
+.icon-habilidad:before { content: '\e806'; } /* 'î †' */
+.icon-maÌs:before { content: '\e807'; } /* 'î ‡' */
+.icon-occmundial:before { content: '\e809'; } /* 'î ‰' */
+.icon-tel:before { content: '\e80c'; } /* 'î Œ' */
+.icon-notificacion:before { content: '\e80d'; } /* 'î ' */
+
+
+#container{
+	width: 100%;
+	margin-top: 20%;
+}
+
+#logo{
+    margin:5%;
+	align-items: center;
+    justify-content: center;
+    
+}
+
+#login{
+    margin-right: 30%;
+	margin-left: 30%;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#facebook{
+    width: 100%;
+    background-color: #0B61C5;
+    color: white;
+    border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20px;
+    margin-bottom: 8%;
+    font-weight: bold;
+}
+
+#CrearCuenta{
+    width: 100%;
+    background-color: lightgray;
+    color: #6F16AC;
+    border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#login p{
+    text-align: center;
+    font-size: 75%;
+    font-weight: lighter;
+    margin-top: 10%;
+    
+}
+
+#login a{
+    text-align: center;
+    font-size: 90%;
+    font-weight: lighter;
+    color: white;
+    
+}
+
+#logo img{
+    align-content: center;
+    margin-left: 25%;
+}
+
+footer{
+	margin-right: 20%;
+	margin-left: 20%;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 50%;
+    text-align: center;
+}
+
+/*********** PROFILE *******/
+
+#profile{
+    background-color: white !important;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container_perfil{
+    background-color: #6F16AC !important;
+    color: white;
+    font-weight: lighter;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-size: 30px;
+    
+}
+
+#perfil_informacion{
+    font-weight: lighter;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    
+}
+#perfil_foto{
+    width: 30%;
+    float: left;
+}
+
+#perfil_foto img{
+    width: 100%;
+    float: left;
+}
+#perfil_nombre{
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#nombre{
+    font-weight: bold;
+    color: dimgray;
+    padding-top: 25%;
+}
+
+#puesto{
+    font-weight: bold;
+    color: lightgray;
+}
+
+.c_informacion{
+    float: left;
+    width: 95%;
+    margin-top: 1%;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgrey;
+    color: slategray;
+    margin-right: -5%;
+    padding-right: -3%;
+    
+}
+
+.c_habilidad{
+    clear: both;
+    width: 95%;
+    color: slategray;
+    padding-right: -3%;
+    align-items: center;
+    align-content: center;  
+    text-align: center;
+}
+
+.c_habilidad button{
+    background-color: transparent;
+    color: purple;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: purple;
+    border-radius: 15px;
+    padding: 1% 10%
+}
+
+.spacer{
+    float: left;
+    width: 95%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    margin-right: -5%;
+    padding-right: -3%;
+    
+}
+
+.c_informacion {
+   
+    padding-bottom: 1%;
+    
+}
+
+.c_informacion input[type="text"]:disabled{
+    border: none;
+    background-color: transparent;
+    color: darkgray;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.c_informacion input[type="text"]
+{
+    border: none;
+    background-color: transparent;
+    color: purple;
+    font-weight: bold;
+    font-size: 14px;
+    width: 80%;
+    padding-left: 2%;
+}
+
+/*************  CASI LISTO **************/
+*{
+    margin: 0;
+    padding: 0;
+}
+#master{
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#top{
+	width: 100%;
+	height: 40%;
+	background-image: url('/images/img_fondo_casilisto.png');
+	text-align: center;
+	color:#FFF;
+}
+
+
+#top1{
+	height: 45%;
+    padding-top: 3%;
+    
+}
+#top1 span{
+    font-size: 100px;
+    font-weight: lighter;
+	
+}
+#top1 p {
+	color:#FFF;
+	width: 60%;
+	height: 60%;
+	margin:0 auto;
+}
+
+#top2 p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#top3 p {
+	color:#FFF;
+	width: 60%;
+	height:20%;
+	margin:0 auto;
+}
+
+
+#top3 p {
+	color:#FFF;
+	width: 60%;
+	height: 20%;
+	margin:0 auto;
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+.line{
+    border-bottom: 2px solid;
+    width: 5%;
+    clear: both;
+    text-align: center;
+    padding: 1%;
+    margin:0 auto;
+    
+}
+
+#buttom{
+    height: 60%;
+}
+#buttom1{
+    height: 20%;
+}
+#buttom2{
+    height: 20%;
+}
+#buttom3{
+    height: 60%;
+}
+.c_informacioncuenta{
+    float: left;
+    width: 95%;
+    margin-top: 1%;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgrey;
+    color: slategray;
+    margin-right: -5%;
+    padding-right: -3%;
+    
+}
+.c_informacioncuenta {
+   
+    padding-bottom: 1%;
+    
+}
+
+.c_informacioncuenta p{
+   
+    padding-bottom: 1%;
+    
+}
+
+.c_informacioncuenta input[type="text"]:disabled{
+    border: none;
+    background-color: transparent;
+    color: darkgray;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.c_informacioncuenta input[type="text"]
+{
+    border: none;
+    background-color: transparent;
+    color: purple;
+    //*ont-weight: bold;*/
+    font-size: 14px;
+    width: 80%;
+    padding-left: 2%;
+}
+
+/********************* FILTROS *********/
+
+#encabezado{
+    background: rgba(80,227,194,1);
+background: -moz-linear-gradient(left, rgba(80,227,194,1) 0%, rgba(13,103,210,1) 87%, rgba(9,96,211,1) 92%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(80,227,194,1)), color-stop(87%, rgba(13,103,210,1)), color-stop(92%, rgba(9,96,211,1)));
+background: -webkit-linear-gradient(left, rgba(80,227,194,1) 0%, rgba(13,103,210,1) 87%, rgba(9,96,211,1) 92%);
+background: -o-linear-gradient(left, rgba(80,227,194,1) 0%, rgba(13,103,210,1) 87%, rgba(9,96,211,1) 92%);
+background: -ms-linear-gradient(left, rgba(80,227,194,1) 0%, rgba(13,103,210,1) 87%, rgba(9,96,211,1) 92%);
+background: linear-gradient(to right, rgba(80,227,194,1) 0%, rgba(13,103,210,1) 87%, rgba(9,96,211,1) 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50e3c2 ', endColorstr='#0960d3 ', GradientType=1 );
+    height: 10%;
+    font-size: 28px;
+    color: white;
+    font-weight: lighter;
+    padding: 5% 3%;
+    
+}
+
+#p_filtros{
+    width: 90%;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.07);    
+}
+
+#contenido_filtro{
+    padding: 4%;
+    display: inline-block;
+}
+
+#p_filtro{
+width: 100%;
+background-image: linear-gradient(86deg, #0960D3 0%, #442CB9 47%, #7103A5 100%);
+	color: white !important;
+    @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+    font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
+	margin:0px auto;
+    font-size: 10px;
+    text-align: center;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    height: auto;
+    padding: 3%;
+    
+}
+
+#p_filtro span{
+    padding: 4%;
+}
+
+#buttons{
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    margin-left: 6%;
+}
+
+#cancelar{
+    width: 30%;
+    float: left;
+    background-color: #6F16AC;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    padding: 2% 3%;
+}
+
+#aceptar{
+    width: 30%;
+    background-color: #2CEA92;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    padding: 2% 3%;
+}
