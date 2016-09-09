@@ -223,12 +223,22 @@ footer{
     text-align: center;
 }
 
-.c_habilidad button{
-    background-color: transparent;
-    color: purple;
+.agregar{
+    background-color: #6F16AC;
+    color: white;
     font-weight: bold;
     border: 2px solid;
     border-color: purple;
+    border-radius: 15px;
+    padding: 1% 10%
+}
+
+.terminar{
+    background-color: #2CEA92;
+    color: white;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #2CEA92;
     border-radius: 15px;
     padding: 1% 10%
 }
