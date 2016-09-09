@@ -26,7 +26,7 @@ var FBConnect = React.createClass({
 		//
 		// These three cases are handled in the callback function.
 		FB.Event.subscribe('auth.login', function () {
-			window.location = "/registro";
+			window.location = "/registro.html";
 		});
   
 		FB.getLoginStatus(function(response) {

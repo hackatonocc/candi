@@ -62,7 +62,7 @@ var FBConnect = React.createClass({
 	  if (response.status === 'connected') {
 		// Logged into your app and Facebook.
 		//this.testAPI();
-		window.location = "/registro";
+		window.location = "/registro.html";
 	  } else if (response.status === 'not_authorized') {
 		// The person is logged into Facebook, but not your app.
 		document.getElementById('status').innerHTML = 'Please log ' +
